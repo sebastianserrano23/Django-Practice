@@ -29,3 +29,4 @@ class Entry(models.Model):
         Return a string representation of the model
         """
         return f"{self.text[:50]}..."
+        
